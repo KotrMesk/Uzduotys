@@ -10,6 +10,12 @@ namespace _03_Užduotis
     {
         static void Main(string[] args)
         {
+            //Išveskite į ekraną norimo dydžio tuščiavidurį kvadratą iš žvaigždučių.
+            Console.WriteLine("*********");
+            Console.WriteLine("*       *");
+            Console.WriteLine("*       *");
+            Console.WriteLine("*       *");
+            Console.WriteLine("*********");
         }
     }
 }
