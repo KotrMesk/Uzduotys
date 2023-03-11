@@ -11,7 +11,7 @@ namespace _01_Užduotis
         static void Main(string[] args)
         {
             //Parašykite programą, kuri išvestų žodį “Labas” ir jūsų vardą toje pačioje eilutėje.
-            string vardas = "Kotryna"
+            string vardas = "Kotryna";
             Console.WriteLine($"Labas, {vardas}");
             
 
