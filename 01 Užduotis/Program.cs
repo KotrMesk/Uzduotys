@@ -11,11 +11,9 @@ namespace _01_Užduotis
         static void Main(string[] args)
         {
             //Parašykite programą, kuri išvestų žodį “Labas” ir jūsų vardą toje pačioje eilutėje.
-            Console.Write("Įveskite savo vardą: ");
-            string vardas = Console.ReadLine();
-            Console.WriteLine();
+            string vardas = "Kotryna"
             Console.WriteLine($"Labas, {vardas}");
-            Console.WriteLine();
+            
 
             /*Susikurkite kintamąjį žmogaus amžiui nusakyti, išveskite į ekraną tekstą su šiuo amžiumi: “Įvestas amžius: { amžius}”. 
             *Tarp { } nurodytas kintamasis, kurio reikšmė toje vietoje turi būti įstatyta.*/
