@@ -18,23 +18,9 @@ namespace _24_Uzduotis
              * Suma2 – kai masyvo indeksas nėra lyginis skaičius
              */
 
-            //Console.Write("Kiek duomenų norite įvesti į masyvą: ");
-            //int[] duomenys = { Convert.ToInt32(Console.ReadLine()) };
-            //Console.WriteLine(duomenys[0]);
+            
 
-            Console.Write("Enter multiple numbers separated by spaces: ");
-            string input = Console.ReadLine();
-
-            string[] numbers = input.Split(' ');
-
-            int[] intNumbers = Array.ConvertAll(numbers, int.Parse);
-
-            Console.WriteLine("Numbers entered:");
-            foreach (int num in intNumbers)
-            {
-                Console.WriteLine(num);
-
-            }
+            
         }
     }
 }
