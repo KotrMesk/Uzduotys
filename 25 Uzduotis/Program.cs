@@ -30,7 +30,7 @@ namespace _25_Uzduotis
             Console.Write("Iveskite 5 pazymius vienoje eiluteje atskiriant kableliu: ");
             string ivedimas = Console.ReadLine();
 
-            string[] ivertinimai = input.Split(',', ' ');
+            string[] ivertinimai = ivedimas.Split(',');
             
             int[] ivertinimas = Array.ConvertAll(ivertinimai, int.Parse);
 
