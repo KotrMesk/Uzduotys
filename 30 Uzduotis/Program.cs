@@ -18,9 +18,8 @@ namespace _30_Uzduotis
             *Dalmuo;
             */
             
-            Console.WriteLine("Įveskite pirmą skaičių: ");
+            Console.WriteLine("Įveskite du skaičių: ");
             int skaicius1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Įveskite pirmą skaičių: ");
             int skaicius2 = Convert.ToInt32(Console.ReadLine());
             
             Suma(skaicius1, skaicius2);
