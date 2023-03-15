@@ -62,7 +62,7 @@ namespace _33_Uzduotis
         {
             return Math.Pow(skaicius1 + skaicius2, 2);
         }
-        private double Saknis(int skaicius1, int skaicius2)
+        private double Saknis(double skaicius1, double skaicius2)
         {
             return Math.Sqrt(skaicius1 + skaicius2);
         }
