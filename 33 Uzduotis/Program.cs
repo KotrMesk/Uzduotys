@@ -56,7 +56,7 @@ namespace _33_Uzduotis
         }
         private int Atimits(int skaicius1, int skaicius2)
         {
-            return skaicius1 +- skaicius2;
+            return skaicius1 - skaicius2;
         }
         private double KelimasLaipsniu(int skaicius1, int skaicius2)
         {
